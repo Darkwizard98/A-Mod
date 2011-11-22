@@ -16,10 +16,7 @@ public class mod_ore1 extends BaseMod
 	{
 		ModLoader.RegisterBlock(ore1);
 		ore1.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/lsore.png");
-		ModLoader.AddName(ore1, "ore1");
-		ModLoader.AddRecipe(new ItemStack(ore1, 1), new Object[] {
-			"###", "###", "###", Character.valueOf('#'), Item.redstone
-		});
+		ModLoader.AddName(ore1, "LightStone Ore");
 	}
     public void GenerateSurface(World world, Random rand, int chunkX, int chunkZ)
     {
