@@ -15,10 +15,10 @@ public class mod_tools extends BaseMod
 
    //Here we override all the textures, and add our own.
         //Make sure the name of your texture is the same what you write here
-      Pick.iconIndex = ModLoader.addOverride("/gui/items.png", "/pick.png");
-      Spade.iconIndex = ModLoader.addOverride("/gui/items.png", "/spade.png");
-      Axe.iconIndex = ModLoader.addOverride("/gui/items.png", "/axe.png");
-      Sword.iconIndex = ModLoader.addOverride("/gui/items.png", "/sword.png");
+      Pick.iconIndex = ModLoader.addOverride("/gui/items.png", "/imgz/tools/pick.png");
+      Spade.iconIndex = ModLoader.addOverride("/gui/items.png", "/imgz/tools/spade.png");
+      Axe.iconIndex = ModLoader.addOverride("/gui/items.png", "/imgz/tools/axe.png");
+      Sword.iconIndex = ModLoader.addOverride("/gui/items.png", "/imgz/tools/sword.png");
 
    //Here we add the in game names to all the tools.
       ModLoader.AddName(Pick, "Pickaxe");
