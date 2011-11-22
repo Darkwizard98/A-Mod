@@ -6,7 +6,7 @@ public class mod_Item1 extends BaseMod
 	
 public mod_Item1()
 {
-	Item1.iconIndex = ModLoader.addOverride("gui/items.png", "/testi.png");
+	Item1.iconIndex = ModLoader.addOverride("gui/items.png", "/ls.png");
 	ModLoader.AddName(Item1, "Test Item");
 	ModLoader.AddRecipe(new ItemStack(Item1, 1), new Object[] {
 		"XPX", "PSP", "XPX", Character.valueOf('P'), Item.porkCooked, Character.valueOf('X'), Item.redstone,
