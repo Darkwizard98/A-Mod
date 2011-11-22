@@ -8,6 +8,7 @@ public class mod_tools extends BaseMod
    public static final Item Pick = new ItemPickaxe(2001, EnumToolMaterial.EMERALD).setItemName("asdf");
    public static final Item Spade = new ItemSpade(2002, EnumToolMaterial.EMERALD).setItemName("sdfa");
    public static final Item Axe = new ItemAxe(2003, EnumToolMaterial.EMERALD).setItemName("dfas");
+   public static final Item Sword = new ItemSword(2005, EnumToolMaterial.EMERALD).setItemName("adsf");
 
    public mod_tools()
    {
@@ -17,11 +18,13 @@ public class mod_tools extends BaseMod
       Pick.iconIndex = ModLoader.addOverride("/gui/items.png", "/pick.png");
       Spade.iconIndex = ModLoader.addOverride("/gui/items.png", "/spade.png");
       Axe.iconIndex = ModLoader.addOverride("/gui/items.png", "/axe.png");
+      Sword.iconIndex = ModLoader.addOverride("/gui/items.png", "/sword.png");
 
    //Here we add the in game names to all the tools.
       ModLoader.AddName(Pick, "Pickaxe");
       ModLoader.AddName(Spade, "Shovel");
       ModLoader.AddName(Axe, "Axe");
+      ModLoader.AddName(Sword, "Sword");
 
    //Here are all the recipes for each tool (all of them are made out of dirt)
       ModLoader.AddRecipe(new ItemStack(Pick, 1), new Object[] {
@@ -32,6 +35,9 @@ public class mod_tools extends BaseMod
       });
       ModLoader.AddRecipe(new ItemStack(Spade, 1), new Object[] {
       "* *", " * ", " * ", Character.valueOf('*'), Block.dirt
+      });
+      ModLoader.AddRecipe(new ItemStack(Sword, 1), new Object[] {
+      " * ", " * ", " * ", Character.valueOf('*'), Block.dirt
       });
       
    }
