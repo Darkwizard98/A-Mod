@@ -28,16 +28,16 @@ public class mod_tools extends BaseMod
 
    //Here are all the recipes for each tool (all of them are made out of dirt)
       ModLoader.AddRecipe(new ItemStack(Pick, 1), new Object[] {
-      "***", " * ", " * ", Character.valueOf('*'), Block.dirt
+      "***", " P ", " P ", Character.valueOf('*'), mod_Item1.Item1, Character.valueOf('P'), Item.stick
       });
       ModLoader.AddRecipe(new ItemStack(Axe, 1), new Object[] {
-      "** ", "** ", " * ", Character.valueOf('*'), Block.dirt
+      "** ", "*P ", " P ", Character.valueOf('*'), mod_Item1.Item1, Character.valueOf('P'), Item.stick
       });
       ModLoader.AddRecipe(new ItemStack(Spade, 1), new Object[] {
-      "* *", " * ", " * ", Character.valueOf('*'), Block.dirt
+      " * ", " P ", " P ", Character.valueOf('*'), mod_Item1.Item1, Character.valueOf('P'), Item.stick
       });
       ModLoader.AddRecipe(new ItemStack(Sword, 1), new Object[] {
-      " * ", " * ", " * ", Character.valueOf('*'), Block.dirt
+      " * ", " * ", " P ", Character.valueOf('*'), mod_Item1.Item1, Character.valueOf('P'), Item.stick
       });
       
    }
