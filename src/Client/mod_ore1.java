@@ -9,7 +9,7 @@ public class mod_ore1 extends BaseModMp
 
 	public String Version()
 	{
-		return "1.0";
+		return "0.5.1";
 	}
 	
 	public mod_ore1()
