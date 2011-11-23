@@ -1,6 +1,6 @@
 package net.minecraft.src;
 
-public class mod_Item1 extends BaseMod
+public class mod_Item1 extends BaseModMp
 {
 	public static final Item Item1 = new Item(30000).setItemName("Item1");
 	

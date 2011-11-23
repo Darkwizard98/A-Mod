@@ -2,7 +2,7 @@ package net.minecraft.src;
 
 import java.util.*;
 
-public class mod_ore1 extends BaseMod
+public class mod_ore1 extends BaseModMp
 {
 
 	public static Block ore1 = new ore1(255, 0).setHardness(1.0f).setResistance(6000.0F).setLightValue(1.0F).setBlockName("ore1");

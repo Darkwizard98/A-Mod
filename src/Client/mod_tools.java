@@ -1,7 +1,7 @@
 package net.minecraft.src;
 import java.util.Random;
 
-public class mod_tools extends BaseMod
+public class mod_tools extends BaseModMp
 {
 
    //Here we declare all of our new tools.
