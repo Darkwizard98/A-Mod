@@ -44,6 +44,6 @@ public class mod_tools extends BaseModMp
 
    public String Version()
    {
-      return "1.0";
+      return "0.5.1";
    }
 }
