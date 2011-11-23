@@ -16,7 +16,7 @@ public mod_Item1()
 	
 public String Version()
 {
-	return "1.0";
+	return "0.5.1";
 }
 	
 }
