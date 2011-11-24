@@ -1,24 +1,17 @@
-This will Become my first Mod that is fully coded by Darkwizard98 and Diehardx95.
-
+!!!! DEV VERSION !!!!
 ________________________________________________
-Current src Version
+Current Version
 
-Client: 0.5.5
-Server: 0.5.5
-________________________________________________
-Current Release Version. (Check Downloads Page)
+Client: DEV 0.6 
+Server: DEV 0.6
 
-Client: 0.5.5
-Server: 0.5.5
-________________________________________________
-
-Test Server: 64.31.9.183:25565
-Adding Lightstone Ore and LightStone, Soon Lightstone Tools and weapons with custom textures by
-Diehardx95
 
 REQUIRES: MODLOADER, MODLOADERMP.
 
 Changelog.
+________________________
+0.6
+New Block.
 ________________________
 0.5.5 (Client + Server)
 mod_Item1.java, mod_ore1.java, and mod_tools.java are all merged to into mod_amod.java
