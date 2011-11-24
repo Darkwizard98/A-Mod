@@ -3,13 +3,13 @@ This will Become my first Mod that is fully coded by Darkwizard98 and Diehardx95
 ________________________________________________
 Current src Version
 
-Client: 0.5.1
-Server: 0.5.1
+Client: 0.5.5
+Server: 0.5.5
 ________________________________________________
-Current Release Version.
+Current Release Version. (Check Downloads Page)
 
-Client: 0.5
-Server: 0.5
+Client: 0.5.5
+Server: 0.5.5
 ________________________________________________
 
 Test Server: 64.31.9.183:25565
@@ -17,5 +17,20 @@ Adding Lightstone Ore and LightStone, Soon Lightstone Tools and weapons with cus
 Diehardx95
 
 REQUIRES: MODLOADER, MODLOADERMP.
+
+Changelog.
+________________________
+0.5.5 (Client + Server)
+mod_Item1.java, mod_ore1.java, and mod_tools.java are all merged to into mod_amod.java
+________________________
+0.5.1 (client only)
+Renamed Item1 ---> Lightstone Ball
+________________________
+0.5.1/2 (not named) (Client)
+Fixed packect 230 error <----- Derp
+_________________________
+0.5 (Client + Server)
+First Used outside of me only testing.
+SMP added
 
 More is to come so follow @JakesMods
