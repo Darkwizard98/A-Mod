@@ -1,5 +1,7 @@
 Amod Server Version 0.5.5 (1.8.1)
 
+REQUIRES: MODLOADER, MODLOADERMP.
+
 !!!UPDATE NOTE!!!If you used Amod Version 0.5 or 0.5.1 (Unreleased)
 
 Then Please Remove the following Items. all other ones will be overwritten.
