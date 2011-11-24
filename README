@@ -5,7 +5,15 @@ Current Version
 Client: DEV 0.6 
 Server: DEV 0.6
 
+<<<<<<< HEAD
 
+=======
+Client: 0.5.5
+Server: 0.5.5
+________________________________________________
+
+Test Server: 64.31.9.183:25565
+>>>>>>> 58d7b28c7bdcef8a6c1486c1ea50507aaf5ef25a
 REQUIRES: MODLOADER, MODLOADERMP.
 
 Changelog.
