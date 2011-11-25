@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
-public class mod_amod extends BaseModMp
+import java.util.*;
+
+public class mod_amod extends BaseMod
 {
 	
 	public static Block ore1 = new ore1(255, 0).setHardness(1.0f).setResistance(6000.0F).setLightValue(1.0F).setBlockName("ore1");
@@ -37,10 +39,33 @@ public class mod_amod extends BaseModMp
 	      ModLoader.AddRecipe(new ItemStack(Sword, 1), new Object[] {
 	          " * ", " * ", " P ", Character.valueOf('*'), mod_amod.Item1, Character.valueOf('P'), Item.stick
 	          });
+	      
 
 	}
+    
+	public void GenerateSurface(World world, Random rand, int chunkX, int chunkZ)
+    {
+        for(int i = 0; i < 15; i++)
+        {
+            int randPosX = chunkX + rand.nextInt(16);
+            int randPosY = rand.nextInt(40);
+            int randPosZ = chunkZ + rand.nextInt(16);
+            (new WorldGenMinable(mod_amod.ore1.blockID, 10)).generate(world, rand, randPosX, randPosY, randPosZ);
+        }
+    }   
+	
 	public String Version()
 	{
-		return "0.5.5";
+		return "0.5.6";
+	}
+	@Override
+	public String getVersion() {
+		// TODO Auto-generated method stub
+		return "1.0.0";
+	}
+	@Override
+	public void load() {
+		// TODO Auto-generated method stub
+		
 	}
 }
