@@ -2,19 +2,18 @@ Amod Client Version 0.5.5 (1.8.1)
 
 REQUIRES: MODLOADER, MODLOADERMP.
 
-!!!UPDATE NOTE!!!If you used Amod Version 0.5 or {0.5.1 (Unreleased)}
+!!!UPDATE NOTE!!!If you used Amod Version 0.5.6!!!UPDATE NOTE!!!
 
-Then Please Remove the following Items. all other ones will be overwritten.
+If You Used 0.5.6 (MC 1.0.0)
 
-mod_item1
+Then Please Get a Clean Jar if you wish to use the mod Online.
 
-mod_ore1
-
-mod_tools
-
-That is it now Extract this into minecraft.jar.
 
 Changelog.
+0.5.6 - 0.5.7 (Client x2 + Server)
+Updated Mod to MC 1.0.0
+(0.5.6)Remove BaseModMP to allow for 1.0.0 for Client Only use.
+(0.5.7)Added Back BaseModMP
 ________________________
 0.5.5 (Client + Server)
 mod_Item1.java, mod_ore1.java, and mod_tools.java are all merged to into mod_amod.java

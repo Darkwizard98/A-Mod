@@ -2,7 +2,7 @@ package net.minecraft.src;
 
 import java.util.*;
 
-public class mod_amod extends BaseMod
+public class mod_amod extends BaseModMp
 {
 	
 	public static Block ore1 = new ore1(255, 0).setHardness(1.0f).setResistance(6000.0F).setLightValue(1.0F).setBlockName("ore1");
@@ -56,13 +56,15 @@ public class mod_amod extends BaseMod
 	
 	public String Version()
 	{
-		return "0.5.6";
+		return "0.5.7";
 	}
+
 	@Override
 	public String getVersion() {
 		// TODO Auto-generated method stub
-		return "1.0.0";
+		return "0.5.7";
 	}
+
 	@Override
 	public void load() {
 		// TODO Auto-generated method stub

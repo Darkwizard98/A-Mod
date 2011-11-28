@@ -11,7 +11,7 @@ public class ore1 extends Block
 	}
 	public int idDropped(int i, Random random)
 	{
-		return mod_Item1.Item1.shiftedIndex;
+		return mod_amod.Item1.shiftedIndex;
 	}
 	public int quantityDropped(Random random)
 	{
