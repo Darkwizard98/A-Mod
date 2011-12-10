@@ -6,11 +6,11 @@ public class mod_amod extends BaseModMp
 {
 	
 	public static Block ore1 = new ore1(255, 0).setHardness(1.0f).setResistance(6000.0F).setLightValue(1.0F).setBlockName("ore1");
-	public static final Item Pick = new ItemPickaxe(2001, EnumToolMaterial.EMERALD).setItemName("asdf");
-	public static final Item Spade = new ItemSpade(2002, EnumToolMaterial.EMERALD).setItemName("sdfa");
-	public static final Item Axe = new ItemAxe(2003, EnumToolMaterial.EMERALD).setItemName("dfas");
-	public static final Item Sword = new ItemSword(2005, EnumToolMaterial.EMERALD).setItemName("adsf");
-	public static final Item Item1 = new Item(30000).setItemName("Item1");
+	public static final Item Pick = new ItemPickaxe(383, EnumToolMaterial.EMERALD).setItemName("asdf");
+	public static final Item Spade = new ItemSpade(384, EnumToolMaterial.EMERALD).setItemName("sdfa");
+	public static final Item Axe = new ItemAxe(385, EnumToolMaterial.EMERALD).setItemName("dfas");
+	public static final Item Sword = new ItemSword(386, EnumToolMaterial.EMERALD).setItemName("adsf");
+	public static final Item Item1 = new Item(387).setItemName("Item1");
 	
 	public mod_amod()
 	{
@@ -56,13 +56,13 @@ public class mod_amod extends BaseModMp
 	
 	public String Version()
 	{
-		return "0.5.7";
+		return "0.5.8";
 	}
 
 	@Override
 	public String getVersion() {
 		// TODO Auto-generated method stub
-		return "0.5.7";
+		return "0.5.8";
 	}
 
 	@Override

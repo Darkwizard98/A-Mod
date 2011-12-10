@@ -9,7 +9,7 @@ public class ore1 extends Block
 	{
 		super(i, j, Material.ground);
 	}
-	public int idDropped(int i, Random random)
+	public int idDropped(int i, Random random, int j)
 	{
 		return mod_amod.Item1.shiftedIndex;
 	}
