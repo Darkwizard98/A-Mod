@@ -6,7 +6,7 @@ public class mod_amod extends BaseModMp
 {
 	
 	public static Block ore1 = new ore1(255, 0).setHardness(1.0f).setResistance(6000.0F).setLightValue(1.0F).setBlockName("ore1");
-	public static Block ore2 = new ore2(254, 0).setHardness(1.0f).setResistance(6000.0F).setBlockName("ore1");
+	public static Block ore2 = new ore2(254, 0).setHardness(1.0f).setResistance(6000.0F).setLightValue(1.0F).setBlockName("ore1");
 	public static final Item Pick = new ItemPickaxe(383, EnumToolMaterial.EMERALD).setItemName("asdf");
 	public static final Item Spade = new ItemSpade(384, EnumToolMaterial.EMERALD).setItemName("sdfa");
 	public static final Item Axe = new ItemAxe(385, EnumToolMaterial.EMERALD).setItemName("dfas");
@@ -82,9 +82,19 @@ public class mod_amod extends BaseModMp
             int randPosY = rand.nextInt(40);
             int randPosZ = chunkZ + rand.nextInt(16);
             (new WorldGenMinable(mod_amod.ore1.blockID, 10)).generate(world, rand, randPosX, randPosY, randPosZ);
-            (new WorldGenMinable(mod_amod.ore2.blockID, 10)).generate(world, rand, randPosX, randPosY, randPosZ);
         }
-    }   
+    } 
+	
+	public void GenerateNether(World world, Random rand, int chunkX, int chunkZ)
+	{
+	       for(int i = 0; i < 15; i++)
+	        {
+	            int randPosX = chunkX + rand.nextInt(16);
+	            int randPosY = rand.nextInt(128);
+	            int randPosZ = chunkZ + rand.nextInt(16);
+	            (new WorldGenMinable(mod_amod.ore2.blockID, 20)).generate(world, rand, randPosX, randPosY, randPosZ);
+	        }
+	}
 	
 	public String Version()
 	{
