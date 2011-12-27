@@ -15,10 +15,10 @@ public class mod_amod extends BaseModMp
 	public static final Item Item2 = new Item(388).setItemName("Item2");
 	public static final Item Item3 = new Item(389).setItemName("Item3");
 	public static final Item Item4 = new Item(390).setItemName("Item3");
-	public static Item Helmet = (new ItemArmor(2006, EnumArmorMaterial.DIAMOND, ModLoader.AddArmor("Armor"), 0).setItemName("Helmet"));
-	public static Item ChestPlate = (new ItemArmor(2007, EnumArmorMaterial.DIAMOND, ModLoader.AddArmor("Armor"), 1).setItemName("ChestPlate"));
-	public static Item Legs = (new ItemArmor(2008, EnumArmorMaterial.DIAMOND, ModLoader.AddArmor("Armor"), 2).setItemName("Legs"));			
-	public static Item Boots = (new ItemArmor(2009, EnumArmorMaterial.DIAMOND, ModLoader.AddArmor("Armor"), 3).setItemName("Boots"));
+	public static Item Helmet = (new ItemArmor(391, EnumArmorMaterial.DIAMOND, ModLoader.AddArmor("Armor"), 0).setItemName("Helmet"));
+	public static Item ChestPlate = (new ItemArmor(392, EnumArmorMaterial.DIAMOND, ModLoader.AddArmor("Armor"), 1).setItemName("ChestPlate"));
+	public static Item Legs = (new ItemArmor(393, EnumArmorMaterial.DIAMOND, ModLoader.AddArmor("Armor"), 2).setItemName("Legs"));			
+	public static Item Boots = (new ItemArmor(394, EnumArmorMaterial.DIAMOND, ModLoader.AddArmor("Armor"), 3).setItemName("Boots"));
 	
 	public mod_amod()
 	{
