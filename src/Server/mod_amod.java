@@ -43,8 +43,12 @@ public class mod_amod extends BaseModMp
 	          "   ", " X ", " P ", Character.valueOf('P'), mod_amod.Item3 , Character.valueOf('X'), Item.ingotGold,
 	          });
 	      
+	      ModLoader.RegisterEntityID(EntityDarkstoneMonster.class, "Darkstone Monster", 100);
+	      
+	      
 
 	}
+	
     
 	public void GenerateSurface(World world, Random rand, int chunkX, int chunkZ)
     {
@@ -58,8 +62,9 @@ public class mod_amod extends BaseModMp
         }
     }   
 	
+	
 	public String Version()
 	{
-		return "0.6";
+		return "0.6.5 R1";
 	}
 }
