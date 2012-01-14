@@ -18,10 +18,6 @@ public class EntityDarkstoneMonster extends EntityMob
         return 20;
     }
 
-    protected int getTotalArmorValue()
-    {
-        return 2;
-    }
 
     public void onLivingUpdate()
     {
