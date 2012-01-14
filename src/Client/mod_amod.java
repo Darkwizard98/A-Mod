@@ -6,7 +6,8 @@ public class mod_amod extends BaseMod
 {
 	
 	public static Block ore1 = new ore1(255, 0).setHardness(1.0f).setResistance(6000.0F).setLightValue(1.0F).setBlockName("ore1");
-	public static Block ore2 = new ore2(254, 0).setHardness(1.0f).setResistance(6000.0F).setLightValue(0.0F).setBlockName("ore1");
+	public static Block ore2 = new ore2(254, 0).setHardness(2.0f).setResistance(6000.0F).setLightValue(0.0F).setBlockName("ore2");
+	public static Block ore3 = new ore3(253, 0).setHardness(1.0f).setResistance(6000.0F).setLightValue(1.0F).setBlockName("ore3");
 	public static final Item Pick = new ItemPickaxe(383, EnumToolMaterial.EMERALD).setItemName("asdf");
 	public static final Item Spade = new ItemSpade(384, EnumToolMaterial.EMERALD).setItemName("sdfa");
 	public static final Item Axe = new ItemAxe(385, EnumToolMaterial.EMERALD).setItemName("dfas");
@@ -24,12 +25,14 @@ public class mod_amod extends BaseMod
 	{
 		ModLoader.RegisterBlock(ore1);
 		ModLoader.RegisterBlock(ore2);
+		ModLoader.RegisterBlock(ore3);
 		Item1.iconIndex = ModLoader.addOverride("/gui/items.png", "/imgz/items/ls.png");
 		Item2.iconIndex = ModLoader.addOverride("/gui/items.png", "/imgz/items/ds.png");
 		Item3.iconIndex = ModLoader.addOverride("/gui/items.png", "/imgz/items/wtf.png");
 		Item4.iconIndex = ModLoader.addOverride("/gui/items.png", "/imgz/items/eingot.png");
 		ore1.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/imgz/blocks/lsore.png");
 		ore2.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/imgz/blocks/dsore.png");
+		ore3.blockIndexInTexture = ModLoader.addOverride("/terrain.png", "/imgz/blocks/bph.png");
 	    Pick.iconIndex = ModLoader.addOverride("/gui/items.png", "/imgz/tools/pick.png");
 	    Spade.iconIndex = ModLoader.addOverride("/gui/items.png", "/imgz/tools/spade.png");
 	    Axe.iconIndex = ModLoader.addOverride("/gui/items.png", "/imgz/tools/axe.png");
@@ -72,6 +75,7 @@ public class mod_amod extends BaseMod
 	          });
 	      
 	      ModLoader.RegisterEntityID(EntityDarkstoneMonster.class, "Darkstone Monster", 100);
+	      ModLoader.RegisterEntityID(EntityLightstoneMonster.class, "Lightstone Monster", 101);
 	      
 
 
