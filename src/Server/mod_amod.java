@@ -7,6 +7,7 @@ public class mod_amod extends BaseModMp
 	
 	public static Block ore1 = new ore1(255, 0).setHardness(1.0f).setResistance(6000.0F).setLightValue(1.0F).setBlockName("ore1");
 	public static Block ore2 = new ore2(254, 0).setHardness(1.0f).setResistance(6000.0F).setBlockName("ore1");
+	public static Block ore3 = new ore3(253, 0).setHardness(1.0f).setResistance(6000.0F).setLightValue(1.0F).setBlockName("ore3");
 	public static final Item Pick = new ItemPickaxe(383, EnumToolMaterial.EMERALD).setItemName("asdf");
 	public static final Item Spade = new ItemSpade(384, EnumToolMaterial.EMERALD).setItemName("sdfa");
 	public static final Item Axe = new ItemAxe(385, EnumToolMaterial.EMERALD).setItemName("dfas");
@@ -24,6 +25,7 @@ public class mod_amod extends BaseModMp
 	{
 		ModLoader.RegisterBlock(ore1);
 		ModLoader.RegisterBlock(ore2);
+		ModLoader.RegisterBlock(ore3);
 	      ModLoader.AddRecipe(new ItemStack(Pick, 1), new Object[] {
 	          "***", " P ", " P ", Character.valueOf('*'), mod_amod.Item4, Character.valueOf('P'), Item.stick
 	          });
@@ -44,11 +46,11 @@ public class mod_amod extends BaseModMp
 	          });
 	      
 	      ModLoader.RegisterEntityID(EntityDarkstoneMonster.class, "Darkstone Monster", 100);
+	      ModLoader.RegisterEntityID(EntityLightstoneMonster.class, "Lightstone Monster", 101);
 	      
 	      
 
 	}
-	
     
 	public void GenerateSurface(World world, Random rand, int chunkX, int chunkZ)
     {
@@ -65,6 +67,19 @@ public class mod_amod extends BaseModMp
 	
 	public String Version()
 	{
-		return "0.6.5 R1";
+		return "0.6.9 R2";
+	}
+
+
+	@Override
+	public String getVersion() {
+		return "0.6.9 R2";
+	}
+
+
+	@Override
+	public void load() {
+		// TODO Auto-generated method stub
+		
 	}
 }

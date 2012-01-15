@@ -1,11 +1,11 @@
 package net.minecraft.src;
 
-public class EntityDarkstoneMonster extends EntityMob
+public class EntityLightstoneMonster extends EntityMob
 {
 	private static final ItemStack defaultHeldItem;
 
 
-    public EntityDarkstoneMonster(World world)
+    public EntityLightstoneMonster(World world)
     {
         super(world);
         texture = "/mob/awe.png";
@@ -17,6 +17,7 @@ public class EntityDarkstoneMonster extends EntityMob
     {
         return 20;
     }
+
 
     public void onLivingUpdate()
     {
@@ -50,7 +51,7 @@ public class EntityDarkstoneMonster extends EntityMob
 
     protected int getDropItemId()
     {
-        return mod_amod.Item2.shiftedIndex;
+        return mod_amod.Item1.shiftedIndex;
     }
 
     public EnumCreatureAttribute getCreatureAttribute()
